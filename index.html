@@ -108,9 +108,9 @@
   </div>
   <hr>
   <div class="project-card">
-    <h3>Weather Dashboard</h3>
+    <h3>Sales Forecasting</h3>
     <ul>
-      <li>Created a weather dashboard using JavaScript and OpenWeatherMap API that displays current conditions and 5-day forecasts for searched cities</li>
+      <li>Created a Sales Forecasting report using JavaScript and OpenWeatherMap API that displays current conditions and 5-day forecasts for searched cities</li>
     </ul>
   </div>
 </div>
@@ -124,23 +124,21 @@
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
           <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
+              I've had the pleasure of mentoring Murphy on several projects. 
+              Their commitment to continuous learning and their collaborative spirit make them a valuable contributor.
+              She takes initiative within a team and has potentials to lead the team.
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
+            Murphy took ownership of a complex front-end module and executed it flawlessly. 
+              Their communication skills and technical ability stand out.
           <span>&#8221;</span>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
+          I had worked along with Murphy for 3 years. 
+          She is a committed resource and with attention to detail. 
           She will be an asset for any organisation! 
           <span>&#8221;</span>
         </div>
@@ -152,7 +150,7 @@
       <div class="flex_center">
         <fieldset>
           <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
+          <input type="text" id="recommender_name" placeholder="Name (Optional)"> <br/>
           <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
           <div class="flex_center">
             <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
@@ -163,13 +161,15 @@
 
     <div class="iconbutton">
       <a href="#home">
+         <img src="html_finalprojimages/home.png" alt="Home Icon" style="width: 32px; height: 32px;">
         <!--Add the code here for the logo to appear and the icon to be actionable-->
       </a>
     </div>
+ 
 
     <div class="popup" id="popup" class="flex_center">
       <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
+      <h3>Recommendations submitted! <!-- Add appropriate text here--></h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>
