@@ -26,6 +26,7 @@ body {
 
 .topmenu:hover {
   color: white;
+  text-decoration: underline;
   /* Add the styles here */
 }
 
@@ -43,7 +44,7 @@ body {
 
 .profile_name .contact_info {
    color: white;
-  font-size: 15px;
+  font-size: 18px;
   font-style: italic;
   display: flex;
   align-items: center;
